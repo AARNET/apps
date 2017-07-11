@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <info>
 	<id>user_saml</id>
-	<name>SAML user and group backend</name>
-	<description>Authenticate Users by SAML</description>
+	<namespace>User_Saml</namespace>
+	<name>SimpleSAML Authentication Backend</name>
+	<description>Authenticate Users via SimpleSAML</description>
 	<licence>AGPL</licence>
-	<author>Sixto Martin @ Yaco Sistemas</author>
-	<requiremin>5</requiremin>
+	<author>Michael Usher</author>
+	<requiremin>8.2.9</requiremin>
 	<types>
         <prelogin/>
         <authentication/>

@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+Version 0.4-aarnet (Tested with OwnCloud 8.2.11)
+----------------------------------------
+* Cleaned up files
+* Improved compatibility with newer versions of OwnCloud through use of new methods while retaining deprecated methods.
+* Removed specifying app via URL (does not fit AARNet's use case)
+* Moved app into it's own namespace (\OCA\User_Saml)
+* Records user creation date in preferences table
+* Retrieves username from users table to avoid case-sensitivity issues (if the user exists already)
+* Made "Login with SAML" button only appear on the login form (was appearing on other forms, if user was not logged in)
+* Removed unnecessary logging
+* Updated template for admin page
+
+
 Version 0.4 (Tested with OwnCloud 5.0.8)
 ----------------------------------------
 

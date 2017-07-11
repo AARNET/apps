@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $('<div id="login-saml"></div>').css({
 		'text-align': 'center',
-    }).appendTo('form');
+    }).appendTo('form[name="login"]');
 
 	$('<p>or</p>').css(
 	{

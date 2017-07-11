@@ -41,10 +41,6 @@ EXTRA INFO
   the value of the defaultGroup field will be used instead. If both are undefined, then the user will be set with no groups.
   But if you configure the "protected groups" field, those groups will not be unlinked from the user.
 
-* If you want to redirect to any specific app after force the login you can set the url param linktoapp. Also you can pass extra args to build the target url using the param linktoargs (the value must be urlencoded).
-  Ex. ?app=user_saml&linktoapp=files&linktoargs=file%3d%2ftest%2ftest_file.txt%26getfile%3ddownload.php
-      ?app=user_saml&linktoapp=files&linktoargs=dir%3d%2ftest
-
 * There is a parameter in the settings named `force_saml_login` to avoid the login form, redirecting directly to the IdP when accesing owncloud.
   If you are an admin and you want to log in using the login form, then use the GET param `admin_login` to deactivate the forced redirection.
 
